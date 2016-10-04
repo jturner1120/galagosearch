@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Map.Entry;
 import org.galagosearch.core.index.StructuredIndex;
@@ -38,6 +39,7 @@ import org.galagosearch.tupleflow.execution.ConnectionAssignmentType;
 import org.galagosearch.tupleflow.execution.ErrorStore;
 import org.galagosearch.tupleflow.execution.JobExecutor;
 import org.mortbay.jetty.Server;
+import org.galagosearch.exercises.Crawler;
 
 /**
  *
@@ -449,10 +451,23 @@ public class App {
             handleSearch(args);
         } else if (command.equals("eval")) {
             handleEval(args);
-        } else {
+        } else if (command.equals("crawl")){
+        	handleCrawl(Utility.subarray(args, 1));
+        }else {
             usage();
         }
     }
+
+	//handler for command line crawl
+    private void handleCrawl(String[] args) throws Exception{
+		
+	    	Crawler crawler = new Crawler();
+	    	URL seedUrl = new URL (args[0]);
+		String userDirectory = new String(args[1]);
+	    	crawler.setFolder(args[1]);
+	    	crawler.run(seedUrl, userDirectory);
+    	
+	}
 
     public static void main(String[] args) throws Exception {
         new App(System.out).run(args);

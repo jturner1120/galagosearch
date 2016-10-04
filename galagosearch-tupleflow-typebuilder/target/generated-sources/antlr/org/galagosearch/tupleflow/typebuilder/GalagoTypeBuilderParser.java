@@ -1,4 +1,4 @@
-// $ANTLR 3.0.1 /home/jturner/galagosearch-1.04/galagosearch-tupleflow-typebuilder/src/main/antlr/org/galagosearch/tupleflow/typebuilder/GalagoTypeBuilder.g 2016-09-29 10:46:37
+// $ANTLR 3.0.1 /home/jturner/galagosearch-1.04/galagosearch-tupleflow-typebuilder/src/main/antlr/org/galagosearch/tupleflow/typebuilder/GalagoTypeBuilder.g 2016-09-30 20:45:24
 
   package org.galagosearch.tupleflow.typebuilder;
   import java.util.HashMap;

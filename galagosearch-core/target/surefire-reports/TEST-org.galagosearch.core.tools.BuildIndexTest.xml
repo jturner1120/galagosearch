@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.183" errors="0" skipped="0" tests="13" name="org.galagosearch.core.tools.BuildIndexTest">
+<testsuite failures="0" time="0.198" errors="0" skipped="0" tests="13" name="org.galagosearch.core.tools.BuildIndexTest">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.111-2.6.7.2.el7_2.x86_64/jre/lib/amd64"/>
@@ -58,17 +58,17 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.106" classname="org.galagosearch.core.tools.BuildIndexTest" name="testCollectionLengthStage"/>
+  <testcase time="0.093" classname="org.galagosearch.core.tools.BuildIndexTest" name="testCollectionLengthStage"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetSplitStage"/>
-  <testcase time="0.02" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetParseStage"/>
+  <testcase time="0.031" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetParseStage"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetLinkCombineStage"/>
-  <testcase time="0.013" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWritePostingsStage"/>
-  <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWriteExtentsStage"/>
+  <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWritePostingsStage"/>
+  <testcase time="0.011" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWriteExtentsStage"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWriteDatesStage"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWriteManifestStage"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetWriteDocumentLengthsStage"/>
-  <testcase time="0.015" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetIndexJob"/>
+  <testcase time="0.014" classname="org.galagosearch.core.tools.BuildIndexTest" name="testGetIndexJob"/>
   <testcase time="0.011" classname="org.galagosearch.core.tools.BuildIndexTest" name="testJobWithStemming"/>
   <testcase time="0" classname="org.galagosearch.core.tools.BuildIndexTest" name="testJobWithLinks"/>
-  <testcase time="0.017" classname="org.galagosearch.core.tools.BuildIndexTest" name="testJobWithLinksAndStemming"/>
+  <testcase time="0.02" classname="org.galagosearch.core.tools.BuildIndexTest" name="testJobWithLinksAndStemming"/>
 </testsuite>
